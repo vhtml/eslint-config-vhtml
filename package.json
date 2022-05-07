@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-vhtml",
+  "version": "1.0.1",
+  "description": "vhtml shared eslint config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . --no-fix",
+    "prepublishOnly": "yarn test"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "react": "^17.0.2",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.12.0",
+    "react": ">= 17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vhtml/eslint-config-vhtml.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint"
+  ],
+  "author": "vhtml",
+  "license": "ISC"
+}
