@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-vhtml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vhtml shared eslint config.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . --no-fix",
+    "test": "eslint . test/demo.ts --no-fix",
     "prepublishOnly": "yarn test"
   },
   "dependencies": {
