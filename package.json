@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vhtml",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vhtml shared eslint config.",
   "main": "index.js",
   "scripts": {
