@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: [require.resolve('./index.js')],
+  extends: [require.resolve('./vue.js')],
   rules: {
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true
