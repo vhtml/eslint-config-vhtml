@@ -9,7 +9,7 @@
   module.exports = {
     root: true,
     extends: [
-      'vhtml'
+      'vhtml' // vhtml/vue
     ]
   }
 ```
